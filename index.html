@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body>
+    <header class="bg-orange-100">
+        <nav class="text-black w-full uppercase tracking-[0.22px] md:text-[16px] p-11">
+            <div class="container mx-auto flex flex-row justify-between items-center">
+                <div>
+                    <img class="w-24" src="/icons/logo.png" alt="Shop Logo" srcset="">
+                </div>
+                <ul class="hidden md:flex flex-row gap-16 justify-end items-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <!--M nav-->
+                <div class="md:hidden">
+                    <div class="space-y-1 rotate-180" id="hamburger">
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                        <div class="w-6 h-0.5 transition-all bg-black"></div>
+                    </div>
+                    <ul class="flex flex-col justify-start gap-5 h-screen absolute top-0 left-0 bg-orange-300 p-10 items-start -translate-x-full transition-all"
+                        id="mobile-nav">
+                        <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--hero section-->
+
+        <section
+        class="flex flex-col container mx-auto pt-16 px-10 md:items-center md:px-20 md:pt-[68px] md:flex-row md:justify-between gap-10 z-30">
+        <div class="flex flex-col items-start md:pb-[68px] z-10  ">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4 leading-[115%] sm:text-5xl md:text-[96px] md:leading-[125%]"><span class="relative after:w-[120%] after:h-ful text-[#FABE4C]">Be the Genzs</span><br> <span class="relative after:w-[120%] after:h-ful text-[#363958]">of Winter</span></h2>
+            <p class="text-gray-600 text-lg md:text-[-30px]">Lorem Ipsum is simply dummy text of the printing <br>and typesetting industry.</p>
+            
+            <br><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" style="display: flex; justify-content: center; align-items: center; width: 170px; height: 60px; border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);">
+                <img src="icons/shopping-cart 1.png" width="24px" style="margin: 0 7px 0 0;"> 
+                <span >BUY NOW</span>
+              </button>
+            </div>
+            <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-20">
+                <div>
+                    <img class="w-full" src="/images/model.png" alt="banner image" srcset="">
+                </div>
+            </div>
+
+    </section>
+    
+</header>
+
+<main class="main">
+
+  <section class="flex flex-col container items-start gap-28 mx-auto px-[10px]">
+    <div class="relative text-black">
+      <h2 class="text-4xl font-black mb-4 text-left px-34 pb-[40px] after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl -10">
+        Woman Jacket </h2>
+    </div>
+        <!--card-->
+       
+            <div class="grid grid-cols-3 gap-10">
+              <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-1.png " alt="">
+                </div>
+                <div class="Description">
+                  <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Yellow Coat Jacket</h2>
+                  <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                </div>
+                <div class="actions flex gap-4">
+                  <h2 class="text-3xl pb-4 ">$234</h2>
+                  <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                      src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                </div> 
+              </div>
+      
+              <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-2.png " alt="">
+                </div>
+                <div class="Description">
+                  <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Ladies Jacket</h2>
+                  <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                </div>
+                <div class="actions flex gap-4">
+                  <h2 class="text-3xl pb-4">$234</h2>
+                  <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                      src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                </div> 
+              </div>
+      
+              <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-3.png " alt="">
+                </div>
+                <div class="Description">
+                  <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Women Leather Jacket</h2>
+                  <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                </div>
+                <div class="actions flex gap-4">
+                  <h2 class="text-3xl pb-4">$234</h2>
+                  <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                      src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                </div> 
+              </div>
+            </div>
+          </section>
+           <!--man product-->
+          <section class="flex flex-col container items-start gap-28 mx-auto px-[10px]">
+            <div class="relative text-black">
+              <h2 class="text-4xl font-black mb-4 text-left px-34 pb-[40px] after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                Man Jacket </h2>
+            </div>
+                <!--card-->
+               
+                    <div class="grid grid-cols-3 gap-10">
+                      <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                        <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-4.png " alt="">
+                        </div>
+                        <div class="Description">
+                          <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Yellow Coat Jacket</h2>
+                          <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        </div>
+                        <div class="actions flex gap-4">
+                          <h2 class="text-3xl pb-4 ">$234</h2>
+                          <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                              src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                        </div> 
+                      </div>
+              
+                      <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                        <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-5.png " alt="">
+                        </div>
+                        <div class="Description">
+                          <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Ladies Jacket</h2>
+                          <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        </div>
+                        <div class="actions flex gap-4">
+                          <h2 class="text-3xl pb-4">$234</h2>
+                          <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                              src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                        </div> 
+                      </div>
+              
+                      <div class="Product-card bg-white shadow-lg rounded-2xl p-7">
+                        <div class="Product-image w-full h-auto rounded-md p-10"><img src="images/jacket-6.png " alt="">
+                        </div>
+                        <div class="Description">
+                          <h2 class="text-2xl font-bold pb-4 sm:text-3xl">Women Leather Jacket</h2>
+                          <p class="text-lg md:text-[-30px] pb-4">Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry.</p>
+                        </div>
+                        <div class="actions flex gap-4">
+                          <h2 class="text-3xl pb-4">$234</h2>
+                          <button class="flex justify-center items-center w-[170px] h-[60px] text-white font-bold py-2 px-4" style="border-radius: 10px; background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);"><img class="w-6 h-6 inline pr-2"
+                              src="./icons/shopping-cart 1.png" alt=""> BUY NOW</button>
+                        </div> 
+                      </div>
+                    </div>
+                  </section>
+
+          </main>
+          
+          <footer class="footer">
+            
+            <section class="container mx-auto flex flex-col  px-20 py-20 my-[190px] gap-28 md:flex-row md:justify-evenly md:items-center">
+              <div>
+                <div class=" bg-white shadow-md rounded-2xl " style="width: 489px; height: 135px; border-radius: 20px; flex-shrink: 0;display: flex; padding: 25px;gap: 40px;">
+                  <img src="icons/house.png" alt="house" class="w-10 h-10">
+                  <div>
+                    <h3 class="text-2xl font-bold " style="font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;">Find the Perfect Fit</h3>
+                  <p style="font-size: 16px;font-style: normal;font-weight: 400;line-height: 26px;">Everybody is different, which is why we
+                    offer styles for every body.</p>
+                  </div>
+              </div>
+              <br>
+              <div class=" bg-white shadow-md rounded-2xl " style="width: 489px; height: 135px; border-radius: 20px; flex-shrink: 0;display: flex;padding: 25px;gap: 40px">
+                <img src="icons/box.png" alt="house"  class="w-10 h-10">
+                <div>
+                  <h3 class="text-2xl font-bold " style="font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;">Find the Perfect Fit</h3>
+                <p style="font-size: 16px;font-style: normal;font-weight: 400;line-height: 26px;">Everybody is different, which is why we
+                  offer styles for every body.</p>
+                </div>
+            </div>
+            <br>
+            <div class=" bg-white shadow-md rounded-2xl " style="width: 489px; height: 135px; border-radius: 20px; flex-shrink: 0;display: flex;padding: 25px;gap: 40px">
+              <img src="icons/question.png" alt="house"  class="w-10 h-10">
+              <div>
+                <h3 class="text-2xl font-bold " style="font-size: 24px;font-style: normal;font-weight: 700;line-height: normal;">Find the Perfect Fit</h3>
+              <p style="font-size: 16px;font-style: normal;font-weight: 400;line-height: 26px;">Everybody is different, which is why we
+                offer styles for every body.</p>
+              </div>
+          </div>
+          <br>
+              </div>
+            <div><img src="images/shopping.png" width="1440px" height=" 2906px"></div>
+            </section>
+          </footer>
+
+    <script async>
+
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById("mobile-nav");
+
+        hamburger.addEventListener('click', () => {
+            mobileMenu.classList.toggle("-translate-x-full");
+        })
+
+    </script>
+</body>
+</html>
